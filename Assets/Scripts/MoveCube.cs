@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This class is responsible for the automatic movement of the cube in the scene.
+ */
+
 public class MoveCube : MonoBehaviour
 {
     private int flip = 1;

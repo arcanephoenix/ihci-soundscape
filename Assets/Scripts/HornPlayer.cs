@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This class randomly plays horns every 0.5 seconds on each car object
+ * marked with the "traffic" tag
+*/
+
 public class HornPlayer : MonoBehaviour
 {
     private AudioSource[] cars = new AudioSource[5];

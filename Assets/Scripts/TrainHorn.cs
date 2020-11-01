@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Plays the train horn every 20 seconds
+ */
 public class TrainHorn : MonoBehaviour
 {
     AudioSource audioSource;

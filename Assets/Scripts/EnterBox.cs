@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This class functions to modify the behaviour of the audio sources using a low pass filter to
+ * muffle the audio from audio sources depending on whether the player is inside or outside the
+ * railway station area.
+ */
 public class EnterBox : MonoBehaviour
 {
     GameObject[] inside;

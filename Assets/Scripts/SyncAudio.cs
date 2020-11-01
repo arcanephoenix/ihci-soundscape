@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Ensures all the speakers in the train station are playing the 
+ * train announcement audio simultaenously.
+ */
+
 public class SyncAudio : MonoBehaviour
 {
     public AudioSource source1;
